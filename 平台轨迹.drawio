@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T08:26:16.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="oeWb3082V2N0005oz0Re" version="14.5.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-13T08:28:18.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="t4-YR6oiOWAFFCoXR2wk" version="14.5.10" type="github" pages="3">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="2370" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -538,6 +538,161 @@
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-20" value="继承" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kj-6wXsW_P1QLNMWUI5u-1">
           <mxGeometry x="413.33000000000004" y="580" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eCoP55vLlYo5K8fOUhGi" name="流程调度流程图">
+    <mxGraphModel dx="3555" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-0" />
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-1" parent="Y1syG9DAWqE1Ey1SnlhT-0" />
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-2" value="代理打单生成任务" style="swimlane;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="310" y="100" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-3" value="生成一个获取轨迹任务到原始轨迹任务表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-2">
+          <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-2" source="Y1syG9DAWqE1Ey1SnlhT-5" target="Y1syG9DAWqE1Ey1SnlhT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;代理打单完成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-2">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-6" value="保存原始轨迹" style="swimlane;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="630" y="100" width="530" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-7" value="从原始轨迹任务表获取一批任务（例如10笔）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-8" value="根据任务指定的接口调用对应的管道实现类的原始轨迹报文生产方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-7" target="Y1syG9DAWqE1Ey1SnlhT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-11" target="Y1syG9DAWqE1Ey1SnlhT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-11" value="原始轨迹生产方法调用代理的轨迹接口获取原始轨迹报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="100" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-8" target="Y1syG9DAWqE1Ey1SnlhT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-14" target="Y1syG9DAWqE1Ey1SnlhT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-14" value="接收代理推送的原始轨迹报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="310" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-16" target="Y1syG9DAWqE1Ey1SnlhT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-16" value="&lt;span style=&quot;white-space: normal&quot;&gt;原始轨迹获取定时器执行&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="100" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-18" target="Y1syG9DAWqE1Ey1SnlhT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-18" value="&lt;span style=&quot;white-space: normal&quot;&gt;原始轨迹接收接口接受代理的请求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-6" source="Y1syG9DAWqE1Ey1SnlhT-20" target="Y1syG9DAWqE1Ey1SnlhT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-20" value="保存原始轨迹报文到原始轨迹表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-21" value="生成并保存日志到原始轨迹日志表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-6">
+          <mxGeometry x="310" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-22" value="转换原始轨迹为标准轨迹" style="swimlane;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="1310" y="100" width="270" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-22" source="Y1syG9DAWqE1Ey1SnlhT-24" target="Y1syG9DAWqE1Ey1SnlhT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-24" value="原始轨迹处理定时器执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-22" source="Y1syG9DAWqE1Ey1SnlhT-26" target="Y1syG9DAWqE1Ey1SnlhT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-26" value="从原始轨迹表获取一批原始轨迹&lt;br&gt;（暂定100笔）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-22" source="Y1syG9DAWqE1Ey1SnlhT-28" target="Y1syG9DAWqE1Ey1SnlhT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-28" value="根据原始轨迹对应的接口调用对应的管道实现类的原始轨迹报文消费方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-22" source="Y1syG9DAWqE1Ey1SnlhT-30" target="Y1syG9DAWqE1Ey1SnlhT-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-30" value="保存原始轨迹报文消费方法生产的标准轨迹到标准轨迹缓存表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-22" source="Y1syG9DAWqE1Ey1SnlhT-32" target="Y1syG9DAWqE1Ey1SnlhT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-32" value="迁移原始轨迹报文到原始轨迹完成表并写入解析成功日志否则写入解析异常日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-33" value="判断轨迹是否结束，做轨迹完成处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-22">
+          <mxGeometry x="75" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-34" value="同步标准轨迹至TMS" style="swimlane;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="1720" y="100" width="460" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-34" source="Y1syG9DAWqE1Ey1SnlhT-36" target="Y1syG9DAWqE1Ey1SnlhT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-36" value="接受TMS标准轨迹同步请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="75" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-34" source="Y1syG9DAWqE1Ey1SnlhT-38" target="Y1syG9DAWqE1Ey1SnlhT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-38" value="&lt;span style=&quot;white-space: normal&quot;&gt;根据请求提供的多个打单记录唯一标识查询对应的标准轨迹列表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="75" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-39" value="返回标准轨迹列表给TMS，其中包括轨迹id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="75" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-34" source="Y1syG9DAWqE1Ey1SnlhT-41" target="Y1syG9DAWqE1Ey1SnlhT-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-41" value="接受TMS标准轨迹处理结果请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-34" source="Y1syG9DAWqE1Ey1SnlhT-43" target="Y1syG9DAWqE1Ey1SnlhT-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-43" value="接收TMS标准轨迹处理结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1syG9DAWqE1Ey1SnlhT-34" source="Y1syG9DAWqE1Ey1SnlhT-45" target="Y1syG9DAWqE1Ey1SnlhT-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-45" value="判断处理结果是否成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="270" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-46" value="将成功同步的标准轨迹根据id迁入到标准轨迹成功表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-34">
+          <mxGeometry x="270" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-47" value="&lt;span style=&quot;white-space: normal&quot;&gt;涉及相关类：&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;管道接口&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;管道接口实现抽象类&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;管道接口实现抽象类实现类&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;原始轨迹表相关处理类&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;标准轨迹表相关处理类&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;轨迹任务表相关处理类&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="1670" y="830" width="285" height="175.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-48" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="520" y="250" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-49" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="1190" y="250" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1syG9DAWqE1Ey1SnlhT-50" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
+          <mxGeometry x="1600" y="240" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
