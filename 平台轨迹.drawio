@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:28:00.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="8Oog7nicQRYlfDr-YekB" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:31:06.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="N3wvl1yRfCJDwJpT0XyN" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="4382" dy="4241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2472,13 +2472,13 @@
         <mxCell id="vtO1z1kiULDaVpzBtCp_-82" value="&lt;span style=&quot;font-size: 13px&quot;&gt;方法PATH&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-81">
           <mxGeometry width="82.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-83" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-81">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-83" value="net.intelink.tmssaas.manager&lt;br&gt;.pod.TrackSyncFacade#trackSync" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-81">
           <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-84" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-80">
           <mxGeometry y="60" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-85" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-84">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-85" value="根据物流公司等参数调用POD平台的平台轨迹下载接口下载一批平台轨迹" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-84">
           <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-86" value="&lt;span&gt;方法描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-84">
@@ -2496,22 +2496,22 @@
           <mxGeometry y="26" width="330" height="130" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-156" value="" style="group;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-155">
-          <mxGeometry width="330" height="60" as="geometry" />
+          <mxGeometry width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-157" value="&lt;span style=&quot;font-size: 13px&quot;&gt;方法PATH&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-156">
-          <mxGeometry width="82.5" height="60" as="geometry" />
+          <mxGeometry width="82.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-158" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-156">
-          <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-159" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-155">
-          <mxGeometry y="60" width="330" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-160" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-159">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-158" value="net.intelink.tmssaas.service&lt;br&gt;.pod.tracksync&lt;br&gt;.ITrackSyncService&lt;br&gt;#addTrackSyncBatch" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-156">
           <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-159" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-155">
+          <mxGeometry y="70" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-160" value="将平台轨迹保存至平台轨迹表pod_track_sync" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-159">
+          <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-161" value="&lt;span&gt;方法描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-159">
-          <mxGeometry x="5.892857142857142" y="18.66666666666667" width="70.71428571428571" height="32.666666666666664" as="geometry" />
+          <mxGeometry x="5.892857142857142" y="16.000000000000004" width="70.71428571428571" height="27.999999999999996" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-244" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GcJ-0dmhvYpNOwSNOcEs-609" source="vtO1z1kiULDaVpzBtCp_-232" target="vtO1z1kiULDaVpzBtCp_-243">
           <mxGeometry relative="1" as="geometry" />
