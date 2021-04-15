@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T04:54:03.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="AUbCmwtCxqlaMMqOPqBa" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T04:54:54.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="eegZ_194euIJnkBzs_TP" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
-    <mxGraphModel dx="6515" dy="5382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="2773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CbikUJmPVATcm5dP3cQ3-0" />
         <mxCell id="CbikUJmPVATcm5dP3cQ3-1" parent="CbikUJmPVATcm5dP3cQ3-0" />
@@ -1539,7 +1539,7 @@
         <mxCell id="Y-RPJBztXmJolKfiPwSM-3" value="&lt;b&gt;TMS平台轨迹相关表&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
           <mxGeometry x="-705" y="-940" width="195" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y-RPJBztXmJolKfiPwSM-364" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹下载成功表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
+        <mxCell id="Y-RPJBztXmJolKfiPwSM-364" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
           <mxGeometry x="-600" y="-870" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -1562,7 +1562,7 @@
         <mxCell id="Y-RPJBztXmJolKfiPwSM-370" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="Y-RPJBztXmJolKfiPwSM-368">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y-RPJBztXmJolKfiPwSM-371" value="pod_sync_success" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="Y-RPJBztXmJolKfiPwSM-364">
+        <mxCell id="Y-RPJBztXmJolKfiPwSM-371" value="pod_track_sync" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="Y-RPJBztXmJolKfiPwSM-364">
           <mxGeometry y="86" width="320" height="30" as="geometry">
             <mxRectangle x="-610" y="-1020" width="320" height="610" as="alternateBounds" />
           </mxGeometry>
