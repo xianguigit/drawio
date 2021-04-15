@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:23:45.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="rfMtMD3Yg8pr6TEIaOpa" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:26:04.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="iOYtTBmfNeCkMaG4JJV3" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="4382" dy="4241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1831,7 +1831,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eCoP55vLlYo5K8fOUhGi" name="调度流程图">
-    <mxGraphModel dx="1185" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y1syG9DAWqE1Ey1SnlhT-0" />
         <mxCell id="Y1syG9DAWqE1Ey1SnlhT-1" parent="Y1syG9DAWqE1Ey1SnlhT-0" />
@@ -2359,6 +2359,9 @@
         <mxCell id="GcJ-0dmhvYpNOwSNOcEs-451" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GcJ-0dmhvYpNOwSNOcEs-385" source="GcJ-0dmhvYpNOwSNOcEs-432" target="GcJ-0dmhvYpNOwSNOcEs-413">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KIj6Lhog9r26bsrToQ-7-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GcJ-0dmhvYpNOwSNOcEs-385" source="vtO1z1kiULDaVpzBtCp_-262" target="GcJ-0dmhvYpNOwSNOcEs-413">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GcJ-0dmhvYpNOwSNOcEs-453" value="下载平台标准轨迹" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="Y1syG9DAWqE1Ey1SnlhT-1">
           <mxGeometry x="250" y="2130" width="1890" height="960" as="geometry" />
         </mxCell>
@@ -2382,13 +2385,13 @@
         <mxCell id="vtO1z1kiULDaVpzBtCp_-21" value="&lt;span style=&quot;font-size: 13px&quot;&gt;方法PATH&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-20">
           <mxGeometry width="82.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-22" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-20">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-22" value="net.intelink.tmssaas.job&lt;br&gt;.PodSyncFacade#syncPrintLabel" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-20">
           <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-23" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-19">
           <mxGeometry y="60" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-24" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-23">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-24" value="平台轨迹下载间隔定时器，每隔一段时间触发平台轨迹下载流程" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-23">
           <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-25" value="&lt;span&gt;方法描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-23">
