@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T07:28:30.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Ulqqxt6Dkt7qU9l1rL6w" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T07:29:37.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="2gN9QTQOemFwm66o1fQx" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
-    <mxGraphModel dx="3671" dy="3860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4382" dy="4241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CbikUJmPVATcm5dP3cQ3-0" />
         <mxCell id="CbikUJmPVATcm5dP3cQ3-1" parent="CbikUJmPVATcm5dP3cQ3-0" />
         <mxCell id="Y-RPJBztXmJolKfiPwSM-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
-          <mxGeometry x="-770" y="-2010" width="1645" height="880" as="geometry" />
+          <mxGeometry x="-818" y="-2010" width="1645" height="880" as="geometry" />
         </mxCell>
         <mxCell id="Y-RPJBztXmJolKfiPwSM-1" value="&lt;b&gt;POS平台轨迹相关表&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
-          <mxGeometry x="-715" y="-1960" width="185" height="20" as="geometry" />
+          <mxGeometry x="-763" y="-1960" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-90" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;原始轨迹任务表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="-692" y="-1880" width="320" height="116" as="geometry">
+          <mxGeometry x="-740" y="-1880" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -219,7 +219,7 @@
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-173" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;原始轨迹临时表&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="-282" y="-1880" width="320" height="116" as="geometry">
+          <mxGeometry x="-330" y="-1880" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -436,7 +436,7 @@
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-506" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;原始轨迹成功表&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="138" y="-1880" width="320" height="116" as="geometry">
+          <mxGeometry x="90" y="-1880" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -654,18 +654,18 @@
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-581" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CbikUJmPVATcm5dP3cQ3-1" target="siqIHeoGyOK8qofE1X-h-177" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-372" y="-1810" as="sourcePoint" />
-            <mxPoint x="-272" y="-1910" as="targetPoint" />
+            <mxPoint x="-420" y="-1810" as="sourcePoint" />
+            <mxPoint x="-320" y="-1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-582" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CbikUJmPVATcm5dP3cQ3-1" target="siqIHeoGyOK8qofE1X-h-510" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="38" y="-1810" as="sourcePoint" />
-            <mxPoint x="138" y="-1910" as="targetPoint" />
+            <mxPoint x="-10" y="-1810" as="sourcePoint" />
+            <mxPoint x="90" y="-1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-583" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;API关联物流公司表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="-705" y="-1590" width="320" height="116" as="geometry">
+          <mxGeometry x="-753" y="-1590" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -774,7 +774,7 @@
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-719" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;打单轨迹参数表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="-290" y="-1590" width="320" height="116" as="geometry">
+          <mxGeometry x="-338" y="-1590" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -919,7 +919,7 @@
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-754" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;标准轨迹临时表&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="138" y="-1630" width="320" height="116" as="geometry">
+          <mxGeometry x="90" y="-1630" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1119,12 +1119,12 @@
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-954" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="CbikUJmPVATcm5dP3cQ3-1" source="siqIHeoGyOK8qofE1X-h-513" target="siqIHeoGyOK8qofE1X-h-754" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="458" y="-1810" as="sourcePoint" />
-            <mxPoint x="558" y="-1910" as="targetPoint" />
+            <mxPoint x="410" y="-1810" as="sourcePoint" />
+            <mxPoint x="510" y="-1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-1085" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹下载成功表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="533" y="-1630" width="320" height="116" as="geometry">
+          <mxGeometry x="485" y="-1630" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1323,7 +1323,7 @@
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-1150" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹下载异常表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" parent="CbikUJmPVATcm5dP3cQ3-1" vertex="1">
-          <mxGeometry x="138" y="-1420" width="320" height="116" as="geometry">
+          <mxGeometry x="90" y="-1420" width="320" height="116" as="geometry">
             <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1523,14 +1523,14 @@
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-1216" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CbikUJmPVATcm5dP3cQ3-1" source="siqIHeoGyOK8qofE1X-h-758" target="siqIHeoGyOK8qofE1X-h-1089" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="473" y="-1460" as="sourcePoint" />
-            <mxPoint x="503" y="-1560" as="targetPoint" />
+            <mxPoint x="425" y="-1460" as="sourcePoint" />
+            <mxPoint x="455" y="-1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-1218" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="CbikUJmPVATcm5dP3cQ3-1" source="siqIHeoGyOK8qofE1X-h-1150" target="siqIHeoGyOK8qofE1X-h-896" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="73" y="-1380" as="sourcePoint" />
-            <mxPoint x="173" y="-1480" as="targetPoint" />
+            <mxPoint x="25" y="-1380" as="sourcePoint" />
+            <mxPoint x="125" y="-1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y-RPJBztXmJolKfiPwSM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
