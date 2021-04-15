@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T01:42:47.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_0jbdyxry4SXtG0DmsJa" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T01:44:16.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="jbObffuzoXyqfKxssLnb" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="3076" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1531,7 +1531,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vlAWl9RTvWzypCs_7EeD" name="类图">
-    <mxGraphModel dx="1396" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-0" />
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-1" parent="kj-6wXsW_P1QLNMWUI5u-0" />
@@ -1539,7 +1539,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-3" value="原始轨迹处理接口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
-          <mxGeometry x="59.99999999999997" y="240" width="200" height="104" as="geometry">
+          <mxGeometry x="390" y="240" width="200" height="104" as="geometry">
             <mxRectangle x="270" y="90" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1555,8 +1555,8 @@
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" source="kj-6wXsW_P1QLNMWUI5u-8" target="kj-6wXsW_P1QLNMWUI5u-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kj-6wXsW_P1QLNMWUI5u-8" value="原始轨迹处理接口实现抽象类" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
-          <mxGeometry x="59.99999999999997" y="398" width="200" height="208" as="geometry" />
+        <mxCell id="kj-6wXsW_P1QLNMWUI5u-8" value="&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
+          <mxGeometry x="390" y="450" width="200" height="208" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-9" value="原始轨迹报文生产方法（重写）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kj-6wXsW_P1QLNMWUI5u-8" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -1580,7 +1580,7 @@
           <mxGeometry y="182" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-16" value="原始轨迹处理接口实现抽象类子类" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
-          <mxGeometry x="60.14999999999995" y="680" width="200" height="78" as="geometry" />
+          <mxGeometry x="249.99999999999994" y="780" width="200" height="78" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-17" value="代理轨迹获取方法（重写）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kj-6wXsW_P1QLNMWUI5u-16" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -1589,16 +1589,16 @@
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-19" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
-          <mxGeometry x="159.99999999999997" y="360" width="40" height="20" as="geometry" />
+          <mxGeometry x="510" y="380" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kj-6wXsW_P1QLNMWUI5u-20" value="继承" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kj-6wXsW_P1QLNMWUI5u-1" vertex="1">
-          <mxGeometry x="160.00000000000003" y="630" width="40" height="20" as="geometry" />
+          <mxGeometry x="450" y="740" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5ytHDl9Wu4MT6tWGccd6-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="kj-6wXsW_P1QLNMWUI5u-1" source="5ytHDl9Wu4MT6tWGccd6-1" target="5ytHDl9Wu4MT6tWGccd6-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5ytHDl9Wu4MT6tWGccd6-1" value="ERP订单获取 IOisGetERPOrderService【接口层】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontFamily=Courier New;fontSize=12;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="kj-6wXsW_P1QLNMWUI5u-1">
-          <mxGeometry x="-385" y="220" width="310" height="306" as="geometry" />
+          <mxGeometry x="-620" y="220" width="310" height="306" as="geometry" />
         </mxCell>
         <mxCell id="5ytHDl9Wu4MT6tWGccd6-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-1">
           <mxGeometry y="26" width="310" height="8" as="geometry" />
@@ -1715,6 +1715,24 @@
           <mxGeometry y="86" width="390" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5ytHDl9Wu4MT6tWGccd6-47" value="originalMessageConsumerByProxy 代理推送原始报文解析抽象方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-41">
+          <mxGeometry y="94" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-49" value="GeneralTrackService 原始轨迹处理接口实现抽象类【抽象层】" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="kj-6wXsW_P1QLNMWUI5u-1">
+          <mxGeometry x="-130" y="250" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-50" value="originalTrajectoryMessageProducer 原始轨迹报文生产者抽象方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-49">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-49">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-52" value="originalTrajectoryMessageConsumer 原始轨迹报文消费者抽象方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-49">
+          <mxGeometry y="60" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-49">
+          <mxGeometry y="86" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ytHDl9Wu4MT6tWGccd6-54" value="originalMessageConsumerByProxy 代理推送原始报文解析抽象方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5ytHDl9Wu4MT6tWGccd6-49">
           <mxGeometry y="94" width="390" height="26" as="geometry" />
         </mxCell>
       </root>
