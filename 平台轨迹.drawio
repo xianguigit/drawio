@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:20:20.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="fm2L-c9s2N_jSzl-t-49" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:23:45.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="rfMtMD3Yg8pr6TEIaOpa" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="4382" dy="4241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2178,13 +2178,13 @@
         <mxCell id="vtO1z1kiULDaVpzBtCp_-265" value="方法&lt;span style=&quot;font-size: 13px&quot;&gt;PATH&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-264">
           <mxGeometry width="82.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-266" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-264">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-266" value="net.intelink.pod.controller&lt;br&gt;.TmsTrackExportController&lt;br&gt;#reParsingOriginalTrajectory" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-264">
           <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-267" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="vtO1z1kiULDaVpzBtCp_-263">
           <mxGeometry y="60" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vtO1z1kiULDaVpzBtCp_-268" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-267">
+        <mxCell id="vtO1z1kiULDaVpzBtCp_-268" value="根据参数查询出需要重新解析的原始轨迹并交由原始轨迹消费者处理" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-267">
           <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vtO1z1kiULDaVpzBtCp_-269" value="方法&lt;span&gt;描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" vertex="1" parent="vtO1z1kiULDaVpzBtCp_-267">
