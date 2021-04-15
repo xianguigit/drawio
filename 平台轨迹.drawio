@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T04:55:46.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="KjP0bEcDaKNUBDY06m5T" version="14.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:51:54.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="KZ_ZIFaF8wOU1uo2HeXi" version="14.6.0" type="github" pages="4">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="3671" dy="3860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1831,7 +1831,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eCoP55vLlYo5K8fOUhGi" name="流程调度流程图">
-    <mxGraphModel dx="7342" dy="3044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2467" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y1syG9DAWqE1Ey1SnlhT-0" />
         <mxCell id="Y1syG9DAWqE1Ey1SnlhT-1" parent="Y1syG9DAWqE1Ey1SnlhT-0" />
@@ -2272,7 +2272,7 @@
         <mxCell id="GcJ-0dmhvYpNOwSNOcEs-392" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" connectable="0" parent="GcJ-0dmhvYpNOwSNOcEs-388">
           <mxGeometry y="60" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GcJ-0dmhvYpNOwSNOcEs-393" value="原始轨迹生产者定时器类中包含多个生产者定时器，包含有多个分片间隔定时器和24个定点定时器，定时器会触发原始轨迹生产者的相应方法获取原始轨迹" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="GcJ-0dmhvYpNOwSNOcEs-392">
+        <mxCell id="GcJ-0dmhvYpNOwSNOcEs-393" value="原始轨迹消费者定时器类中包含多个消费者分片间隔定时器，定时器会触发原始轨迹消费者相应方法解析原始轨迹" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" vertex="1" parent="GcJ-0dmhvYpNOwSNOcEs-392">
           <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GcJ-0dmhvYpNOwSNOcEs-394" value="&lt;span&gt;类描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" vertex="1" parent="GcJ-0dmhvYpNOwSNOcEs-392">
