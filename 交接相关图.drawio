@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:46:24.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="MtAMf85yKNu8-rQTgD4R" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:47:04.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="JqQ0i-ozAmpetgaSpH9K" version="14.7.6" type="github" pages="2">
   <diagram id="rIHNBz61H1X_mbd-f75E" name="打单审核流程">
     <mxGraphModel dx="3236" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -449,27 +449,11 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="RYLDRNWNGrfEeQ8LYJPz" name="打单查询-fr3生成pdf">
-    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="zRATeo1m0hX0DoRasoMU-0" />
-        <mxCell id="zRATeo1m0hX0DoRasoMU-1" parent="zRATeo1m0hX0DoRasoMU-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="2jo3L2kWX6QBYo4r1fMB" name="法国邮政接口流程">
     <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-0" />
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-1" parent="1K7AMbkD5WsQy8SlDlU5-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Dy00YsUJCDJjklQxhNcG" name="导入带进度条">
-    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="aNEvCnNeGRWDm6SZXPyQ-0" />
-        <mxCell id="aNEvCnNeGRWDm6SZXPyQ-1" parent="aNEvCnNeGRWDm6SZXPyQ-0" />
       </root>
     </mxGraphModel>
   </diagram>
