@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:40:52.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="WZGJeudN-Rl7A_UyOMy6" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:41:07.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="i9TUcpYk7xuNs_c9C9RL" version="14.7.6" type="github">
   <diagram id="rIHNBz61H1X_mbd-f75E" name="打单审核流程">
-    <mxGraphModel dx="3236" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="358" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,32 +378,6 @@
         </mxCell>
         <mxCell id="LwGYTIweJ4kUItgMoGB3-72" value="数据库操作" style="swimlane;html=1;startSize=20;" parent="LwGYTIweJ4kUItgMoGB3-22" vertex="1">
           <mxGeometry x="1190" y="20" width="375" height="2440" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-73" value="原始轨迹获取" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontColor=#333333;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=12;swimlaneLine=1;" parent="LwGYTIweJ4kUItgMoGB3-72" vertex="1">
-          <mxGeometry x="15" y="51.33" width="330" height="156" as="geometry">
-            <mxRectangle x="-1050" y="270" width="100" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-74" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" parent="LwGYTIweJ4kUItgMoGB3-73" vertex="1" connectable="0">
-          <mxGeometry y="26" width="330" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-75" value="" style="group;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" parent="LwGYTIweJ4kUItgMoGB3-74" vertex="1" connectable="0">
-          <mxGeometry width="330" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-76" value="&lt;span style=&quot;font-size: 13px&quot;&gt;方法PATH&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" parent="LwGYTIweJ4kUItgMoGB3-75" vertex="1">
-          <mxGeometry width="82.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-77" value="net.intelink.pod.manager&lt;br&gt;.GeneralTrackService&lt;br&gt;#getProxyTrajectory" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;overflow=hidden;" parent="LwGYTIweJ4kUItgMoGB3-75" vertex="1">
-          <mxGeometry x="82.5" width="247.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-78" value="" style="group;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" parent="LwGYTIweJ4kUItgMoGB3-74" vertex="1" connectable="0">
-          <mxGeometry y="60" width="330" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-79" value="根据提供的参数调用指定代理接口获取原始轨迹报文，该方法需子类具体实现" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=13;" parent="LwGYTIweJ4kUItgMoGB3-78" vertex="1">
-          <mxGeometry x="82.5" width="247.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LwGYTIweJ4kUItgMoGB3-80" value="&lt;span&gt;方法描述&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Courier New;fontSize=13;dashed=1;dashPattern=1 1;strokeColor=none;glass=1;" parent="LwGYTIweJ4kUItgMoGB3-78" vertex="1">
-          <mxGeometry x="5.892857142857142" y="18.66666666666667" width="70.71428571428571" height="32.666666666666664" as="geometry" />
         </mxCell>
         <mxCell id="LwGYTIweJ4kUItgMoGB3-145" value="更新redis" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontColor=#333333;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=12;swimlaneLine=1;" parent="LwGYTIweJ4kUItgMoGB3-72" vertex="1">
           <mxGeometry x="15" y="250" width="330" height="156" as="geometry">
