@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T06:45:58.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="IFQx6BSnp0-5PzeIHIyl" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-17T06:54:02.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="biYgZDTPO5QYqlOYzQ_C" version="14.7.6" type="github" pages="2">
   <diagram id="rIHNBz61H1X_mbd-f75E" name="打单审核流程">
     <mxGraphModel dx="12100" dy="6918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -450,7 +450,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2jo3L2kWX6QBYo4r1fMB" name="法国邮政接口流程">
-    <mxGraphModel dx="-14" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="154" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-0" />
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-1" parent="1K7AMbkD5WsQy8SlDlU5-0" />
@@ -777,7 +777,7 @@
         <mxCell id="rp7bVtpauoqQAI_Vum18-268" value="总运单发送触发法国邮政上传流程" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-169">
           <mxGeometry x="40" y="110" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-178" value="法国邮政上传流程" style="swimlane;html=1;startSize=20;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-168">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-178" value="法国邮政文件上传" style="swimlane;html=1;startSize=20;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-168">
           <mxGeometry x="410" y="20" width="390" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-180" value="法国邮政文件上传" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontColor=#333333;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=12;swimlaneLine=1;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-178">
@@ -812,25 +812,25 @@
         <mxCell id="rp7bVtpauoqQAI_Vum18-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-216" target="rp7bVtpauoqQAI_Vum18-218">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-216" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-216" value="根据转单号和物流公司编码查询调用POS查询打单记录" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="50" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-218" target="rp7bVtpauoqQAI_Vum18-232">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-218" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-218" value="合并预报文件" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="109.99999999999999" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-220" target="rp7bVtpauoqQAI_Vum18-222">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-220" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-220" value="&lt;span&gt;登录SFTP&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="230" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-222" target="rp7bVtpauoqQAI_Vum18-234">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-222" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-222" value="上传预报文件到/IN目录下" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="300" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-224" target="rp7bVtpauoqQAI_Vum18-236">
@@ -860,13 +860,13 @@
         <mxCell id="rp7bVtpauoqQAI_Vum18-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-232" target="rp7bVtpauoqQAI_Vum18-220">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-232" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-232" value="生成航班文件" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="170" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-234" target="rp7bVtpauoqQAI_Vum18-224">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-234" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-234" value="上传Invoice文件到/DEMAT_DOUANE目录下" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-214">
           <mxGeometry x="30" y="360" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-214" source="rp7bVtpauoqQAI_Vum18-236" target="rp7bVtpauoqQAI_Vum18-238">
@@ -965,6 +965,1535 @@
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-168" source="rp7bVtpauoqQAI_Vum18-268" target="rp7bVtpauoqQAI_Vum18-180">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-765" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="827" y="-1130" width="1645" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-766" value="&lt;b&gt;法国邮政相关表&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="882" y="-1080" width="198" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-767" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;原始轨迹任务表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="905" y="-1000" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-768" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-767">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-769" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-768">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-770" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-768">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-771" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-767">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-772" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-771">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-773" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-771">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-774" value="pod_track_task" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-767">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="640" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-775" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-776" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-775">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-777" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-775">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-778" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-779" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-778">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-780" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-778">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-781" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-782" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-781">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-783" value="`interface_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;接口名称&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-781">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-784" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-785" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-784">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-786" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-784">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-787" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-788" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-787">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-789" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-787">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-790" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-791" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-790">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-792" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-790">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-793" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-794" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-793">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-795" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;参考编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-793">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-796" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-797" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-796">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-798" value="`effective_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;生效时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-796">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-799" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-800" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-799">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-801" value="`expiration_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;失效时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-799">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-802" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-803" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-802">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-804" value="`fixed_execution_time` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;固定执行时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-802">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-805" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-806" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-805">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-807" value="`request_proxy_params` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;请求代理参数json&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-805">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-808" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-809" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-808">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-810" value="`task_status` varchar(5) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;任务状态，1为执行，2为停止&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-808">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-811" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-812" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-811">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-813" value="`last_execution_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;最后执行时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-811">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-814" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-815" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-814">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-816" value="`sharding` int(10) DEFAULT NULL COMMENT &#39;分片&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-814">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-817" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-818" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-817">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-819" value="`task_stop_description` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;任务终止原因&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-817">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-820" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-821" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-820">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-822" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-820">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-823" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-824" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-823">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-825" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-823">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-826" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-827" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-826">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-828" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-826">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-829" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-830" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-829">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-831" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-829">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-832" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-774">
+          <mxGeometry y="600" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-833" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-832">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-834" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-832">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-835" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;原始轨迹临时表&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="1315" y="-1000" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-836" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-835">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-837" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-836">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-838" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-836">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-839" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-835">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-840" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-839">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-841" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-839">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-842" value="pod_track_log_buffer" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-835">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="670" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-843" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-844" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-843">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-845" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-843">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-846" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-847" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-846">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-848" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-846">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-849" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-850" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-849">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-851" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-849">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-852" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-853" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-852">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-854" value="`interface_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;接口名称&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-852">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-855" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-856" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-855">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-857" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-855">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-858" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-859" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-858">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-860" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-858">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-861" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-862" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-861">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-863" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;运单号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-861">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-864" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-865" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-864">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-866" value="`original_track_message_url` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;原始报文url&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-864">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-867" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-868" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-867">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-869" value="`message_record_qty` int(10) DEFAULT NULL COMMENT &#39;报文记录数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-867">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-870" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-871" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-870">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-872" value="`parsing_record_qty` int(10) DEFAULT NULL COMMENT &#39;解析记录数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-870">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-873" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-874" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-873">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-875" value="`track_message_status` varchar(5) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹报文状态（1为等待解析，2为解析成功，3为解析异常）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-873">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-876" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-877" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-876">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-878" value="`parsing_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;解析时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-876">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-879" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-880" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-879">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-881" value="`exception_description` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;异常信息&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-879">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-882" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-883" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-882">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-884" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-882">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-885" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-886" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-885">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-887" value="`parsing_frequency` int(10) DEFAULT &#39;0&#39; COMMENT &#39;解析次数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-885">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-888" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-889" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-888">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-890" value="`sharding` int(10) DEFAULT NULL COMMENT &#39;分片&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-888">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-891" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-892" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-891">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-893" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-891">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-894" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-895" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-894">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-896" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-894">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-897" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-898" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-897">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-899" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-897">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-900" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="600" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-901" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-900">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-902" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-900">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-903" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-842">
+          <mxGeometry y="630" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-904" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-903">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-905" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-903">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-906" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;原始轨迹成功表&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="1735" y="-1000" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-907" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-906">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-908" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-907">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-909" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-907">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-910" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-906">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-911" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-910">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-912" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-910">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-913" value="pod_track_log_success" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-906">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="670" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-914" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-915" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-914">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-916" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-914">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-917" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-918" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-917">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-919" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-917">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-920" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-921" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-920">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-922" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-920">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-923" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-924" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-923">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-925" value="`interface_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;接口名称&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-923">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-926" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-927" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-926">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-928" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-926">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-929" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-930" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-929">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-931" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-929">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-932" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-933" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-932">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-934" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;运单号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-932">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-935" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-936" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-935">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-937" value="`original_track_message_url` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;原始报文url&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-935">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-938" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-939" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-938">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-940" value="`message_record_qty` int(10) DEFAULT NULL COMMENT &#39;报文记录数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-938">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-941" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-942" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-941">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-943" value="`parsing_record_qty` int(10) DEFAULT NULL COMMENT &#39;解析记录数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-941">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-944" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-945" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-944">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-946" value="`track_message_status` varchar(5) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹报文状态（1为等待解析，2为解析成功，3为解析异常）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-944">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-947" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-948" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-947">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-949" value="`parsing_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;解析时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-947">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-950" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-951" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-950">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-952" value="`exception_description` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;异常信息&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-950">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-953" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-954" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-953">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-955" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-953">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-956" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-957" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-956">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-958" value="`parsing_frequency` int(10) DEFAULT &#39;0&#39; COMMENT &#39;解析次数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-956">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-959" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-960" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-959">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-961" value="`sharding` int(10) DEFAULT NULL COMMENT &#39;分片&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-959">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-962" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-963" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-962">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-964" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-962">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-965" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-966" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-965">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-967" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-965">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-968" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-969" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-968">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-970" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-968">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-971" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="600" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-972" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-971">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-973" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-971">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-974" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-913">
+          <mxGeometry y="630" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-975" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-974">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-976" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-974">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-977" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1K7AMbkD5WsQy8SlDlU5-1" target="rp7bVtpauoqQAI_Vum18-839">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1225" y="-930" as="sourcePoint" />
+            <mxPoint x="1325" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-978" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1K7AMbkD5WsQy8SlDlU5-1" target="rp7bVtpauoqQAI_Vum18-910">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1635" y="-930" as="sourcePoint" />
+            <mxPoint x="1735" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-979" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;API关联物流公司表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="892" y="-710" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-980" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-979">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-981" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-980">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-982" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-980">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-983" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-979">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-984" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-983">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-985" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-983">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-986" value="pos_api_company" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-979">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="310" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-987" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-988" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-987">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-989" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-987">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-990" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-991" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-990">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-992" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-990">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-993" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-994" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-993">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-995" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-993">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-996" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-997" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-996">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-998" value="`isstop` int(2) DEFAULT &#39;0&#39; COMMENT &#39;是否停止对接,0为否，1为是&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-996">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-999" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1000" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-999">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1001" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-999">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1002" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1003" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1002">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1004" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1002">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1005" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1006" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1005">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1007" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1005">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1008" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1009" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1008">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1010" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1008">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1011" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-986">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1012" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1011">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1013" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1011">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1014" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;打单轨迹参数表&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="1307" y="-710" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1015" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1014">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1016" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1015">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1017" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1015">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1018" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1014">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1019" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1018">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1020" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1018">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1021" value="`pos_api_track_params`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-1014">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="430" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1022" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1023" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1022">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1024" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1022">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1025" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1026" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1025">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1027" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1025">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1028" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1029" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1028">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1030" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1028">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1031" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1032" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1031">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1033" value="`get_delay` int(10) DEFAULT NULL COMMENT &#39;获取延时（小时）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1031">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1034" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1035" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1034">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1036" value="`max_get_dayqty` int(11) DEFAULT NULL COMMENT &#39;最长获取天数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1034">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1037" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1038" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1037">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1039" value="`specified_time` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;每天指定时间追踪(格式: HHMM,多个时用“,”隔开;最多5个)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1037">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1040" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1041" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1040">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1042" value="`stop_get_mark` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;停止获取标记&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1040">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1043" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1044" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1043">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1045" value="`callback_url` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;代理回调地址url&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1043">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1046" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1047" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1046">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1048" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1046">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1049" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1050" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1049">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1051" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1049">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1052" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1053" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1052">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1054" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1052">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1055" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1056" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1055">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1057" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1055">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1058" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1021">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1059" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1058">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1060" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1058">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1061" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;标准轨迹临时表&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="1735" y="-750" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1062" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1061">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1063" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1062">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1064" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1062">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1065" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1061">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1066" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1065">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1067" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1065">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1068" value="pod_sync_buffer" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-1061">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle x="-610" y="-1020" width="320" height="610" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1069" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1070" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1069">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1071" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1069">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1072" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1073" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1072">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1074" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1072">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1075" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1076" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1075">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1077" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1075">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1078" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1079" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1078">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1080" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1078">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1081" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1082" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1081">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1083" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1081">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1084" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1085" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1084">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1086" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;运单号码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1084">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1087" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1088" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1087">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1089" value="`weig` decimal(18,0) DEFAULT NULL COMMENT &#39;重量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1087">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1090" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1091" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1090">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1092" value="`scan_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;轨迹时间，格式&quot;yyyy-MM-dd HH:mm:ss&quot;&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1090">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1093" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1094" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1093">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1095" value="`scan_location` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹位置&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1093">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1096" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1097" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1096">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1098" value="`scan_code` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹状态编码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1096">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1099" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1100" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1099">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1101" value="`scan_remark` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹描述&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1099">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1102" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1103" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1102">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1104" value="`remark` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;备注&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1102">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1105" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1106" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1105">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1107" value="`exception_str` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;异常信息&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1105">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1108" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1109" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1108">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1110" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1108">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1111" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1112" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1111">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1113" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1111">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1114" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1115" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1114">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1116" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1114">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1117" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1118" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1117">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1119" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1117">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1120" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1121" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1120">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1122" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1120">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1123" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1124" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1123">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1125" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1123">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1126" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1K7AMbkD5WsQy8SlDlU5-1" source="rp7bVtpauoqQAI_Vum18-913" target="rp7bVtpauoqQAI_Vum18-1061">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2055" y="-930" as="sourcePoint" />
+            <mxPoint x="2155" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1127" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹下载成功表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="2130" y="-750" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1128" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1127">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1129" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1128">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1130" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1128">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1131" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1127">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1132" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1131">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1133" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1131">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1134" value="pod_sync_success" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-1127">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle x="-610" y="-1020" width="320" height="610" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1135" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1136" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1135">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1137" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1135">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1138" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1139" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1138">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1140" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1138">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1141" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1142" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1141">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1143" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1141">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1144" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1145" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1144">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1146" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1144">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1147" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1148" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1147">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1149" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1147">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1150" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1151" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1150">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1152" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;运单号码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1150">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1153" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1154" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1153">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1155" value="`weig` decimal(18,0) DEFAULT NULL COMMENT &#39;重量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1153">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1156" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1157" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1156">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1158" value="`scan_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;轨迹时间，格式&quot;yyyy-MM-dd HH:mm:ss&quot;&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1156">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1159" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1160" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1159">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1161" value="`scan_location` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹位置&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1159">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1162" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1163" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1162">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1164" value="`scan_code` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹状态编码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1162">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1165" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1166" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1165">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1167" value="`scan_remark` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹描述&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1165">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1168" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1169" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1168">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1170" value="`remark` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;备注&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1168">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1171" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1172" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1171">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1173" value="`exception_str` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;异常信息&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1171">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1174" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1175" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1174">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1176" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1174">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1177" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1178" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1177">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1179" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1177">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1180" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1181" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1180">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1182" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1180">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1183" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1184" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1183">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1185" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1183">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1186" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1187" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1186">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1188" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1186">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1189" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1134">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1190" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1189">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1191" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1189">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1192" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;标准轨迹下载异常表&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="1K7AMbkD5WsQy8SlDlU5-1">
+          <mxGeometry x="1735" y="-540" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1193" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1192">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1194" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1193">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1195" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1193">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1196" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1192">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1197" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1196">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1198" value="api_id int(11) COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1196">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1199" value="pod_sync_error" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="rp7bVtpauoqQAI_Vum18-1192">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle x="-610" y="-1020" width="320" height="610" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1200" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1201" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1200">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1202" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1200">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1203" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1204" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1203">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1205" value="`api_id` int(11) DEFAULT NULL COMMENT &#39;pos api id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1203">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1206" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1207" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1206">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1208" value="`coid` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;物流公司编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1206">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1209" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1210" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1209">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1211" value="`message_reference` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;uuid唯一标识符&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1209">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1212" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1213" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1212">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1214" value="`refno` mediumtext COLLATE utf8mb4_unicode_ci COMMENT &#39;转单号码(主单)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1212">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1215" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1216" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1215">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1217" value="`jobno` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;运单号码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1215">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1218" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1219" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1218">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1220" value="`weig` decimal(18,0) DEFAULT NULL COMMENT &#39;重量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1218">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1221" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1222" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1221">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1223" value="`scan_datetime` timestamp NULL DEFAULT NULL COMMENT &#39;轨迹时间，格式&quot;yyyy-MM-dd HH:mm:ss&quot;&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1221">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1224" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1225" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1224">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1226" value="`scan_location` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹位置&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1224">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1227" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="300" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1228" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1227">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1229" value="`scan_code` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹状态编码&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1227">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1230" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="330" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1231" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1230">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1232" value="`scan_remark` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹描述&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1230">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1233" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1234" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1233">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1235" value="`remark` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;备注&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1233">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1236" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="390" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1237" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1236">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1238" value="`exception_str` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;异常信息&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1236">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1239" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1240" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1239">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1241" value="`track_docking_type` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹对接方式（1为POS定时获取，2为代理实时推送）&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1239">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1242" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1243" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1242">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1244" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1242">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1245" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="480" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1246" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1245">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1247" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1245">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1248" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1249" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1248">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1250" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1248">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1251" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1252" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1251">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1253" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1251">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1254" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1199">
+          <mxGeometry y="570" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1255" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1254">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1256" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-1254">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1257" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1K7AMbkD5WsQy8SlDlU5-1" source="rp7bVtpauoqQAI_Vum18-1065" target="rp7bVtpauoqQAI_Vum18-1131">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2070" y="-580" as="sourcePoint" />
+            <mxPoint x="2100" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-1258" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1K7AMbkD5WsQy8SlDlU5-1" source="rp7bVtpauoqQAI_Vum18-1192" target="rp7bVtpauoqQAI_Vum18-1068">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1670" y="-500" as="sourcePoint" />
+            <mxPoint x="1770" y="-600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
