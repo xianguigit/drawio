@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T01:38:09.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="TOwiv4SyPF7h-tJu5Qwc" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-17T01:39:57.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="POU_sHdqPFtOXR_wbsZu" version="14.7.6" type="github" pages="2">
   <diagram id="rIHNBz61H1X_mbd-f75E" name="打单审核流程">
     <mxGraphModel dx="12100" dy="6918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -672,73 +672,73 @@
         <mxCell id="rp7bVtpauoqQAI_Vum18-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-60" target="rp7bVtpauoqQAI_Vum18-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-60" value="根据特殊走货路线计算出来的应付费用" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-60" value="查询产品信息表" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="230" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-62" target="rp7bVtpauoqQAI_Vum18-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-62" value="根据运单号查询是否存在已审核的打单记录" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-62" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="300" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-64" target="rp7bVtpauoqQAI_Vum18-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-64" value="判断运单状态" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-64" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="415" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-66" target="rp7bVtpauoqQAI_Vum18-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-66" value="判断运单.目的地国家简码=打单.国家简码" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-66" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="690" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-68" target="rp7bVtpauoqQAI_Vum18-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-68" value="判断运单.包装类型=打单.包装类型" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-68" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="750" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-70" target="rp7bVtpauoqQAI_Vum18-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-70" value="判断运单.件数=打单.件数" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-70" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="810" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-72" target="rp7bVtpauoqQAI_Vum18-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-72" value="判断是否有对应运单" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-72" value="获取产品名称" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="170" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-74" target="rp7bVtpauoqQAI_Vum18-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-74" value="判断运单的排货状态是否为待排货" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-74" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="360" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-76" target="rp7bVtpauoqQAI_Vum18-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-76" value="判断是否有未处理完成的港前问题件" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-76" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="470" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-78" target="rp7bVtpauoqQAI_Vum18-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-78" value="判断打单.走货路线与运单.走货路线是否相符（暂时忽略导入数据）" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-78" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="530" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-80" target="rp7bVtpauoqQAI_Vum18-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-80" value="判断收件邮编，收货有录收件邮编或收件城市时，需判断运单.收件邮编是否等于打单.收件邮编；运单.收件城市是否等于打单.收件城市，当有一项不符时，为”邮编城市不符”" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-80" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="600" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-82" target="rp7bVtpauoqQAI_Vum18-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp7bVtpauoqQAI_Vum18-82" value="判断运单.付款方式=打单.付款方式" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
+        <mxCell id="rp7bVtpauoqQAI_Vum18-82" value="" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Courier New;fontSize=13;align=center;strokeColor=#B3B3B3;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-54">
           <mxGeometry x="30" y="870" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-54" source="rp7bVtpauoqQAI_Vum18-84" target="rp7bVtpauoqQAI_Vum18-86">
