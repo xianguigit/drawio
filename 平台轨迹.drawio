@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T07:10:47.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="5zz_DCR3IOuK3AWtLwNI" version="14.7.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-17T07:13:29.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="hrFIz5QbWDdTeDcOY8QN" version="14.7.6" type="github" pages="5">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
-    <mxGraphModel dx="2500" dy="3233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="2863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CbikUJmPVATcm5dP3cQ3-0" />
         <mxCell id="CbikUJmPVATcm5dP3cQ3-1" parent="CbikUJmPVATcm5dP3cQ3-0" />
@@ -1756,15 +1756,6 @@
         <mxCell id="Y-RPJBztXmJolKfiPwSM-428" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="Y-RPJBztXmJolKfiPwSM-426" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iP22CLlDZpb-Xp-xHRiG-0" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
-          <mxGeometry x="-740" y="-1169" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iP22CLlDZpb-Xp-xHRiG-1" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-0">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iP22CLlDZpb-Xp-xHRiG-2" value="`proxy_category` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;渠道分类&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-0">
-          <mxGeometry x="30" width="290" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="iP22CLlDZpb-Xp-xHRiG-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
           <mxGeometry x="460" y="-1760" width="320" height="30" as="geometry" />
         </mxCell>
@@ -1772,6 +1763,115 @@
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iP22CLlDZpb-Xp-xHRiG-5" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-3">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;轨迹网络代号表&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;fontFamily=Lucida Console;rounded=0;glass=0;labelBackgroundColor=none;comic=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=#FFFFFF;html=1;" vertex="1" parent="CbikUJmPVATcm5dP3cQ3-1">
+          <mxGeometry x="-338" y="-1420" width="320" height="116" as="geometry">
+            <mxRectangle x="-6920" y="-4822" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-16" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-15">
+          <mxGeometry y="26" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-17" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-16">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-18" value="id int(11) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-16">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-19" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-15">
+          <mxGeometry y="56" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-20" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-19">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-21" value="track_params_id int(11) COMMENT &#39;api轨迹参数id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-19">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-62" value="`pos_api_target_code`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" collapsed="1" parent="iP22CLlDZpb-Xp-xHRiG-15">
+          <mxGeometry y="86" width="320" height="30" as="geometry">
+            <mxRectangle y="86" width="320" height="310" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-63" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-64" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-63">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-65" value="`id` int(11) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-63">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-66" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-67" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-66">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-68" value="`track_params_id` int(11) DEFAULT NULL COMMENT &#39;api轨迹参数id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-66">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-69" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-70" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-69">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-71" value="`target_code` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;轨迹网络代号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-69">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-72" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-73" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-72">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-74" value="`stop_get_mark` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;停止获取标记&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-72">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-75" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="150" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-76" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-75">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-77" value="`isdel` int(2) DEFAULT &#39;0&#39; COMMENT &#39;删除标记(0_正常、1_删除)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-75">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-78" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-79" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-78">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-80" value="`create_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-78">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-81" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="210" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-82" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-81">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-83" value="`create_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;创建人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-81">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-84" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-85" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-84">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-86" value="`modify_datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-84">
+          <mxGeometry x="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-87" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-62">
+          <mxGeometry y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-88" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-87">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iP22CLlDZpb-Xp-xHRiG-89" value="`modify_user_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT &#39;&#39; COMMENT &#39;修改人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="iP22CLlDZpb-Xp-xHRiG-87">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
