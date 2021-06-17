@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T01:42:53.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ZOzconLWB-dF6Y4TOCGC" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-17T01:43:25.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="u63KfENOkDwEvmiQvaVt" version="14.7.6" type="github" pages="2">
   <diagram id="rIHNBz61H1X_mbd-f75E" name="打单审核流程">
     <mxGraphModel dx="12100" dy="6918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -450,7 +450,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2jo3L2kWX6QBYo4r1fMB" name="法国邮政接口流程">
-    <mxGraphModel dx="-14" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="154" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-0" />
         <mxCell id="1K7AMbkD5WsQy8SlDlU5-1" parent="1K7AMbkD5WsQy8SlDlU5-0" />
@@ -856,7 +856,7 @@
           <mxGeometry x="1190" y="20" width="375" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-121" value="查询产品信息表" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontColor=#333333;strokeColor=#B3B3B3;fontFamily=Courier New;fontSize=12;swimlaneLine=1;" vertex="1" parent="rp7bVtpauoqQAI_Vum18-120">
-          <mxGeometry x="22.5" y="170" width="330" height="176" as="geometry">
+          <mxGeometry x="22.5" y="60" width="330" height="176" as="geometry">
             <mxRectangle x="15" y="520" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -914,6 +914,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rp7bVtpauoqQAI_Vum18-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-0" source="rp7bVtpauoqQAI_Vum18-10" target="rp7bVtpauoqQAI_Vum18-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-0" source="rp7bVtpauoqQAI_Vum18-60" target="rp7bVtpauoqQAI_Vum18-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp7bVtpauoqQAI_Vum18-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rp7bVtpauoqQAI_Vum18-0" source="rp7bVtpauoqQAI_Vum18-121" target="rp7bVtpauoqQAI_Vum18-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
