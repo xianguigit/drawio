@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T07:10:09.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="dMi_7Ys9AIqO4c-SMuFp" version="14.7.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-17T07:10:47.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="5zz_DCR3IOuK3AWtLwNI" version="14.7.6" type="github" pages="5">
   <diagram id="soyGiitG30a4pR9Z1HNf" name="数据库表ER图">
     <mxGraphModel dx="2500" dy="3233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -802,7 +802,7 @@
         <mxCell id="siqIHeoGyOK8qofE1X-h-721" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;" parent="siqIHeoGyOK8qofE1X-h-720" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="siqIHeoGyOK8qofE1X-h-722" value="id bigint(20) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="siqIHeoGyOK8qofE1X-h-720" vertex="1">
+        <mxCell id="siqIHeoGyOK8qofE1X-h-722" value="id int(11) COMMENT &#39;id&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="siqIHeoGyOK8qofE1X-h-720" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-723" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontSize=20;align=center;" parent="siqIHeoGyOK8qofE1X-h-719" vertex="1">
@@ -825,7 +825,7 @@
         <mxCell id="siqIHeoGyOK8qofE1X-h-681" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="siqIHeoGyOK8qofE1X-h-680" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="siqIHeoGyOK8qofE1X-h-682" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="siqIHeoGyOK8qofE1X-h-680" vertex="1">
+        <mxCell id="siqIHeoGyOK8qofE1X-h-682" value="`id` int(11) NOT NULL AUTO_INCREMENT COMMENT &#39;id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="siqIHeoGyOK8qofE1X-h-680" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="siqIHeoGyOK8qofE1X-h-683" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="siqIHeoGyOK8qofE1X-h-679" vertex="1">
